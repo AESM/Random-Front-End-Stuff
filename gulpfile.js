@@ -1,6 +1,6 @@
 // gulpfile.js
 
-////= RAPTORFrame Gulp Tasks
+////= Gulp Tasks
 //============================================================================//
 
 var gulp = require('gulp'),
