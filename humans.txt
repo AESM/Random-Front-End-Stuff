@@ -1,0 +1,27 @@
+# humans.txt
+
+####= Humans Text File
+##============================================================================##
+
+## @source http://humanstxt.org/
+
+## The humans responsible & technology colophon
+
+##== Team =====================================================================#
+
+  Name: Ali Esmaili
+  Role: Developer & Designer
+  Email: Ali@SuitAndCape.com
+  SuitAndCape GitHub: https://github.com/SuitAndCape
+  Personal GitHub: https://github.com/AESM
+  Website: https://SuitAndCape.com/
+  LinkedIn: https://www.linkedin.com/in/SuitAndCape
+  Twitter: https://twitter.com/SuitAndCape
+  Location: Southern Bay Area
+
+##== Info =====================================================================#
+
+  Last update: 2018-12-18
+  Languages: JavaScript, CSS3, HTML5
+  Components: Sass (SCSS)
+  Development tools: Sublime Text 3, iTerm2, SublimeLinter, Google Chrome

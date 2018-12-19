@@ -1,0 +1,89 @@
+# .gitignore
+
+####= Untracked File List
+##============================================================================##
+
+## @how-to-use-gitignore https://help.github.com/articles/ignoring-files
+## @github-resource https://github.com/github/gitignore
+
+## Backup files
+*~
+*.bak
+
+## Linux, Mac, and Windows
+$RECYCLE.BIN/
+*.DS_Store*
+*.cab
+*.lnk
+*.msi
+*.msm
+*.msp
+.AppleDB
+.AppleDesktop
+.AppleDouble
+.DocumentRevisions-V100
+.LSOverride
+.Spotlight-V100
+.TemporaryItems
+.Trash-*
+.Trashes
+.VolumeIcon.icns
+._*
+.apdisk
+.com.apple.timemachine.donotpresent
+.dat*
+.directory
+.fseventsd
+.fuse_hidden*
+Desktop.ini
+Network Trash Folder
+Temporary Items
+Thumbs.db
+ehthumbs.db
+
+## Packages – only raw source files should be commited
+*.7z
+*.bz2
+*.bzip
+*.deb
+*.dmg
+*.ear
+*.egg
+*.gem
+*.gz
+*.iso
+*.jar
+*.lzma
+*.rar
+*.rpm
+*.tar
+*.war
+*.xpi
+*.xz
+*.zip
+
+## Sass (SCSS) caches
+*.css.map
+*.sassc
+.sass-cache/
+
+## Software package management
+bower_components
+jspm_packages
+node_modules
+
+## Sublime Text cache, work, and configuration files
+*.stTheme.cache
+*.sublime-workspace
+# *.sublime-project ## Uncomment if many contributors don't use Sublime Text
+*.tmPreferences.cache
+*.tmlanguage.cache
+GitHub.sublime-settings
+Package Control.ca-bundle
+Package Control.ca-certs/
+Package Control.ca-list
+Package Control.cache/
+Package Control.last-run
+Package Control.system-ca-bundle
+bh_unicode_properties.cache
+sftp-config.json
