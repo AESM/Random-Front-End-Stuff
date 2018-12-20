@@ -5,7 +5,7 @@ Random Front-End Stuff
 
 **This is a WIP.  I will continually be expanding on this as time allows.**
 
-A compilation of code samples, compiled into one repository.  This consists of JavaScript, CSS3 as Sass (SCSS), & HTML5 at the moment, but that may change.
+A compilation of code samples, compiled into one repository.  This consists of JavaScript, CSS3 as Sass (SCSS), and HTML5 at the moment, but that may change.
 
 On the **[Random Front-End Stuff website](https://aesm.github.io/Random-Front-End-Stuff/)**, this code is live.
 
