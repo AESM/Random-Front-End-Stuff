@@ -3,11 +3,12 @@
 /// Variables
 
 $body-background-color: rgb(238, 238, 238);
+$body-font-stack: 'Lato', sans-serif;
 
 /// Global
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: $body-font-stack;
 }
 
 a {
