@@ -1,5 +1,9 @@
 // website.scss
 
+/// Imports
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
 /// Variables
 
 $body-background-color: rgb(238, 238, 238);
@@ -15,6 +19,10 @@ a {
   text-decoration: none;
 }
 
+button {
+  cursor: pointer;
+}
+
 /// Layout
 
 .banner,
@@ -25,7 +33,7 @@ a {
   justify-content: center;
   align-items: center;
   padding: 0 2em;
-  height: 100vh;
+  height: 70vh;
   background: $body-background-color;
   text-align: center;
 
@@ -59,5 +67,3 @@ a {
     }
   }
 }
-
-
