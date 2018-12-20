@@ -14,8 +14,8 @@ var gulp = require('gulp'),
     path = require('path');
 
 var resourcePath = {
-      'stylesource': './resources/style',
-      'scriptsource': './resources/scripts',
+      'stylesource': './resources',
+      'scriptsource': './resources',
     },
     sourcePath = {
       'scss': './stylesheets/**/*.scss',
