@@ -3,18 +3,36 @@
 Random Front-End Stuff
 ================================================================================
 
-README for the Random Front-End Stuff repository.
+**This is a WIP.  I will continually be expanding on this as time allows.**
+
+A compilation of code samples, compiled into one repository.  This consists of JavaScript, CSS3 as Sass (SCSS), & HTML5 at the moment, but that may change.
+
+On the **[Random Front-End Stuff website](https://aesm.github.io/Random-Front-End-Stuff/)**, this code is live.
+
+<!-- - [Website JavaScript code.](https://github.com/AESM/Random-Front-End-Stuff/blob/master/javascripts/website.js)
+- [Website Sass(SCSS) code.](https://github.com/AESM/Random-Front-End-Stuff/blob/master/stylesheets/website.scss) -->
 
 ## Contents
 
-- [First](#first)
+- [Stopwatch](#stopwatch)
+- [Modal](#modal)
 - [Team](#team)
 - [License](#license)
 - [Connect](#connect)
 
-## First
+## Stopwatch
 
-First introduction.
+A JavaScript timepiece designed to measure elapsed time.
+
+- [Stopwatch JavaScript code.](https://github.com/AESM/Random-Front-End-Stuff/blob/master/javascripts/stopwatch.js)
+- [Stopwatch Sass(SCSS) code.](https://github.com/AESM/Random-Front-End-Stuff/blob/master/stylesheets/stopwatch.scss)
+
+## Modal
+
+Temporarily disables the main window while focusing on a sub-window.
+
+- [Modal JavaScript code.](https://github.com/AESM/Random-Front-End-Stuff/blob/master/javascripts/modals.js)
+- [Modal Sass(SCSS) code.](https://github.com/AESM/Random-Front-End-Stuff/blob/master/stylesheets/modals.scss)
 
 --------------------------------------------------------------------------------
 
