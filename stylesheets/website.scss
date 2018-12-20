@@ -1,0 +1,63 @@
+// website.scss
+
+/// Variables
+
+$body-background-color: rgb(238, 238, 238);
+$body-font-stack: 'Lato', sans-serif;
+
+/// Global
+
+body {
+  font-family: $body-font-stack;
+}
+
+a {
+  text-decoration: none;
+}
+
+/// Layout
+
+.banner,
+.showcase {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2em;
+  height: 100vh;
+  background: $body-background-color;
+  text-align: center;
+
+  h1 {
+    margin: 0;
+    font-size: 2rem;
+    letter-spacing: 1rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+    letter-spacing: 0.25rem;
+    opacity: 0.7;
+  }
+}
+
+// .root {
+//   //
+// }
+
+@media (min-width: 800px) {
+  .banner,
+  .showcase {
+
+    h1 {
+      font-size: 3rem;
+    }
+
+    h2 {
+      font-size: 1rem;
+    }
+  }
+}
+
+
