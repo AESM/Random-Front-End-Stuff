@@ -29,14 +29,16 @@
     <header class="banner" role="banner">
       <h1>Random Front-End Stuff</h1>
 
-      <h2>Live demos of code samples.</h2>
+      <h2>Live demos of JavaScript, CSS3, &amp; HTML5 code samples I had laying around.</h2>
+
+      <h2>Explanation &amp; associated code in <a href="https://github.com/AESM/Random-Front-End-Stuff">this GitHub repository</a>.</h2>
     </header>
 
     <main class="principal">
       <section class="showcase">
         <h1>Stopwatch</h1>
 
-        <h2>Information about my JavaScript Stopwatch.</h2>
+        <h2>A JavaScript timepiece designed to measure elapsed time.</h2>
 
         <div class="stopwatch-container">
           <nav class="stopwatch-control-panel">
@@ -52,12 +54,62 @@
       </section>
 
       <section class="showcase">
-        <h1>Second Showcase</h1>
+        <h1>Modal</h1>
 
-        <h2>Information about my showcase.</h2>
+        <h2>Temporarily disables the main window while focusing on a sub-window.</h2>
+
+        <div class="modal-container">
+          <button data-modal-ignition="first-ignition" class="modal-ignition">1st Modal</button>
+
+          <button data-modal-ignition="second-ignition" class="modal-ignition">2nd Modal</button>
+
+          <button data-modal-ignition="third-ignition" class="modal-ignition">3rd Modal</button>
+
+          <div data-modal="first-ignition" class="modal">
+            <article class="modal-wrapper">
+              <button class="modal-close"></button>
+
+              <header class="modal-header">
+                <h1>Hey, this is a modal!</h1>
+              </header>
+
+              <div class="modal-content">
+                <p>I said come on Fhqwhgads, I said come on Fhqwhgads, everybody to the limit, everybody to the limit, everybody come on Fhqwhgads!</p>
+              </div>
+            </article>
+          </div>
+
+          <div data-modal="second-ignition" class="modal">
+            <article class="modal-wrapper">
+              <button class="modal-close"></button>
+
+              <header class="modal-header">
+                <h1>Look at that.  A modal!</h1>
+              </header>
+
+              <div class="modal-content">
+                <p>I said come on Fhqwhgads, I said come on Fhqwhgads, everybody to the limit, who's that, it's to the limit, everybody come on Fhqwhgads!</p>
+              </div>
+            </article>
+          </div>
+
+          <div data-modal="third-ignition" class="modal">
+            <article class="modal-wrapper">
+              <button class="modal-close"></button>
+
+              <header class="modal-header">
+                <h1>Guess what?  Another modal</h1>
+              </header>
+
+              <div class="modal-content">
+                <p>Come on, Fhqwhgads.  I see you jockin' me.  Tryin' to play like...  You know me?</p>
+              </div>
+            </article>
+          </div>
+        </div>
       </section>
 
-      <section class="showcase">
+      <!-- <section class="showcase">
         <h1>Third Showcase</h1>
 
         <h2>Information about my showcase.</h2>
@@ -79,7 +131,7 @@
         <h1>Sixth Showcase</h1>
 
         <h2>Information about my showcase.</h2>
-      </section>
+      </section> -->
     </main>
 
     <!-- <footer class="root" role="contentinfo">
