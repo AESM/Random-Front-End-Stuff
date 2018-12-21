@@ -47,7 +47,7 @@ Temporarily disables the main window while focusing on a sub-window.
   + ¿Include links directly to live samples?
     * _Prerequisite:_ Navigation bar on website.
 - **Overall**
-  + ¿Turn these into simple libraries under the [SuitAndCape organization](https://github.com/SuitAndCape)?
+  + ¿Turn these into simple libraries under the **[SuitAndCape organization](https://github.com/SuitAndCape)**?
 
 --------------------------------------------------------------------------------
 
@@ -55,7 +55,7 @@ Temporarily disables the main window while focusing on a sub-window.
 
 - **Ali Esmaili**: [AESM](https://github.com/AESM)
 
-Check out the [humans responsible and technology colophon](https://github.com/AESM/Random-Front-End-Stuff/blob/master/humans.txt) for more information about the team and tools used.
+Check out the [humans responsible and technology colophon](https://github.com/AESM/Random-Front-End-Stuff/blob/master/humans.txt) for more information about the team and the tools they used.
 
 ## License
 
