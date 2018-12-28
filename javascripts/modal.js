@@ -1,4 +1,4 @@
-// modals.js
+// modal.js
 
 function modalEvent(button) {
   button.addEventListener('click', () => {
