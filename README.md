@@ -32,8 +32,8 @@ A JavaScript timepiece designed to measure elapsed time.
 
 Temporarily disables the main window while focusing on a sub-window.
 
-- [Modal JavaScript code.](https://github.com/AESM/Random-Front-End-Stuff/blob/master/javascripts/modals.js)
-- [Modal Sass(SCSS) code.](https://github.com/AESM/Random-Front-End-Stuff/blob/master/stylesheets/modals.scss)
+- [Modal JavaScript code.](https://github.com/AESM/Random-Front-End-Stuff/blob/master/javascripts/modal.js)
+- [Modal Sass(SCSS) code.](https://github.com/AESM/Random-Front-End-Stuff/blob/master/stylesheets/modal.scss)
 
 ## ToDos
 

@@ -22,34 +22,36 @@ $stopwatch-font-stack: 'Inconsolata', monospace;
 
 /// Modules
 
-.stopwatch-control-panel {
-  top: 1em;
-  width: 100%;
-  text-align: center;
-}
+.stopwatch {
+  &-control-panel {
+    top: 1rem;
+    width: 100%;
+    text-align: center;
+  }
 
-.stopwatch-button {
-  margin: 0 0.5em;
-  font-size: 3vw;
-  color: $stopwatch-color;
-  text-decoration: none;
-}
+  &-button {
+    margin: 0 1.5rem;
+    font-size: 3vw;
+    color: $stopwatch-color;
+    text-decoration: none;
 
-.stopwatch-button:first-child {
-  margin-left: 0;
-}
+    &:first-child{
+      margin-left: 0;
+    }
 
-.stopwatch-button:last-child {
-  margin-right: 0;
-}
+    &:last-child{
+      margin-right: 0;
+    }
 
-.stopwatch-button:hover {
-  color: $stopwatch-hover-color;
-}
+    &:hover {
+      color: $stopwatch-hover-color;
+    }
+  }
 
-.stopwatch-display {
-  height: 100%;
-  font-size: 10vw;
-  line-height: 35vh;
-  text-align: center;
+  &-display {
+    height: 100%;
+    font-size: 10vw;
+    line-height: 35vh;
+    text-align: center;
+  }
 }

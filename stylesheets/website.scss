@@ -13,6 +13,7 @@ $body-font-stack: 'Lato', sans-serif;
 
 body {
   font-family: $body-font-stack;
+  background: $body-background-color;
 }
 
 a {
@@ -34,36 +35,36 @@ button {
   align-items: center;
   padding: 0 2em;
   height: 70vh;
-  background: $body-background-color;
   text-align: center;
 
-  h1 {
+  > h1 {
     margin: 0;
     font-size: 2rem;
     letter-spacing: 1rem;
+    // &:first-of-type {
+    //   margin: 0;
+    //   font-size: 2rem;
+    //   letter-spacing: 1rem;
+    // }
   }
 
-  h2 {
+  > h2 {
     font-size: 1rem;
     letter-spacing: 0.25rem;
     opacity: 0.7;
+  }
+
+  @media (min-width: 800px) {
+    > h1 {
+      font-size: 3rem;
+    }
+
+    > h2 {
+      font-size: 1.25rem;
+    }
   }
 }
 
 // .root {
 //   //
 // }
-
-@media (min-width: 800px) {
-  .banner,
-  .showcase {
-
-    h1 {
-      font-size: 3rem;
-    }
-
-    h2 {
-      font-size: 1rem;
-    }
-  }
-}
